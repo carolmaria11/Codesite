@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/weather.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>This Python program creates a simple weather app with a graphical user interface (GUI) using the tkinter library. Users can enter the name of a city and click a "Search" button to retrieve and display weather information for that city. When you run this script, a window will appear with an entry field to input the city name. After entering a city name and clicking the "Search" button, the weather information for that city will be displayed in the labels, including the location, weather icon, temperature, and description. The app uses the OpenWeatherMap API to fetch real-time weather data based on the city entered by the user.</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>
+            <ol>
+                <li>-> <b>GUI Interface: </b><br>• The program uses tkinter to create a user-friendly interface with various widgets, including an input field for the city name, a search button, and labels for displaying weather information.</li><br>
+                <li>-> <b>Weather Data: </b><br>• It fetches weather data from the OpenWeatherMap API based on the user's input. This data includes the location (city and country), a weather icon, temperature in Celsius, and a weather description.</li><br>
+                <li>-> <b>Error Handling: </b><br>•	The program handles errors gracefully, such as when the entered city is not found, by displaying an error message.</li><br>
+                <li>-> <b>Display: </b><br>• The retrieved weather data is displayed dynamically on the GUI, updating labels and displaying the weather icon as an image</li><br>
+                <li>-> <b>Styling: </b><br>• The GUI is styled using the ttkbootstrap library to enhance the app's visual appeal.</li>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> <b>Import necessary libraries:</b><br>• tkinter :- for creating the GUI. <br>• Requests :- for making HTTP requests to the OpenWeatherMap API. <br>•	Messagebox :- for displaying error messages. <br>•	Messagebox :- for displaying error messages. <br>• ttkbootstrap :- for GUI styling.</li><br>
+                <li>-> <b>Define the get_weather function:</b><br> • This function takes a city name as input and uses the OpenWeatherMap API to retrieve weather information for that city.</li><br>
+                <li>-> <b>Create GUI widgets:</b><br>• city_entry: An entry widget where users can input the city name. <br>• search_button: A button that triggers the weather search when clicked. <br>• location_label: A label to display the location (city and country). <br>• icon_label: A label to display the weather icon.</li><br>
+                <li>-> <b>Configure widget styles:</b><br>•	Styling for the widgets is specified using ttkbootstrap styles for the entry and <br>• button widgets. Fonts and sizes are also specified for some labels.</li><br>
+                <li>-> <b>Enter the main event loop:</b> <br>•	The root.mainloop() function is called to start the Tkinter event loop, which handles user interactions and updates the GUI.</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/misba-s/weather-app.git">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/data ana.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>This data analysis project that involves importing, cleaning, and visualizing data from a CSV file named "Diwali Sales Data.csv." The project aims to explore and analyze the sales data, with a focus on different aspects such as gender, age group, state, marital status, occupation, and product categories. It uses popular data manipulation and visualization libraries such as NumPy, pandas, Matplotlib, and Seaborn.</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>
+            <ol>
+                <li>-> <b>Data Import: </b><br>• The code starts by importing necessary Python libraries and loading the CSV file, "Diwali Sales Data.csv," into a pandas DataFrame for further analysis.</li><br>
+                <li>-> <b>Data Cleaning: </b><br>•	It involves several data cleaning steps, including: <br>• Dropping unrelated or blank columns (Status and unnamed1). <br>• Checking for and dropping rows with null values using pd.isnull() and df.dropna(). <br>•	Changing the data type of the 'Amount' column to integers using df['Amount'].astype('int').</li><br>
+                <li>-> <b>Data Exploration: </b><br>• The code explores the dataset by: <br>• Renaming a column from 'Marital_Status' to 'Shaadi' (although this change is not persisted in the DataFrame). <br>•	Using df.describe() to generate summary statistics for the entire dataset. <br>• Using df[['Age', 'Orders', 'Amount']].describe() to generate specific statistics for selected columns.</b></li><br>
+                <li>-> <b>Data Visualization: </b><br>• The code utilizes various visualization techniques to gain insights from the data, such as: <br>•	Creating a bar chart for gender distribution using Seaborn (sns.countplot()). <br>•	Generating bar charts for gender vs. total sales amount. <br>• Visualizing age group distribution. <br>• Analyzing total sales amount by age group. <br>• Examining the total number of orders and sales amount from the top 10 states. <br>• Analyzing sales data by marital status and gender. <br>• Visualizing sales data by occupation. <br> • Exploring sales data by product categories and product IDs. <br>• Creating a bar chart for the top 10 most sold products.</li><br>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> <b>Data Import: </b> <br>• The code utilizes the pandas library to load and manipulate data from a CSV file.</li><br>
+                <li>-> <b>Data Cleaning: </b><br>• Various data cleaning techniques, including dropping columns and handling missing values, are applied to prepare the data for analysis.</li><br>
+                <li>-> <b>Data Exploration: </b><br>• The describe() method is used to generate summary statistics for the dataset, providing insights into the data's distribution.</li><br>
+                <li>-> <b>Data Visualization:</b><br>• : Seaborn and Matplotlib libraries are used for data visualization, allowing for the creation of various charts and graphs to represent and explore the data visually.</li><br>
+                <li>-> <b>Grouping and Aggregation: </b><br>• Data is grouped and aggregated using pandas' groupby() function to calculate total sales and orders for different categories.</li><br>
+                <li>-> <b>Bar Charts: </b><br>• Bar charts are employed to visualize categorical data, making it easier to compare and analyze different categories.</li><br>
+                <li>-> In summary, this code demonstrates a typical data analysis project workflow, including data import, cleaning, exploration, and visualization. It provides insights into various aspects of sales data, making it easier to make data-driven decisions and draw conclusions from the dataset.</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/Vidya0907/Data-Analysis-of-Diwali-Sales">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/lang trans.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>This Python program is a Language Translator application with a graphical user interface (GUI) built using the tkinter library. This program offers a straightforward way for users to enter text, select a target language, translate the text, and clear the input/output areas as needed. It utilizes the Google Translate API for language translation and provides a basic yet functional language translation tool within the GUI.</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>
+            <ol>
+                <li>-> <b>Graphical User Interface (GUI): </b><br>•	The program leverages tkinter to create a graphical user interface with a window, frames, labels, buttons, and text entry widgets. This provides an interactive and visually appealing user interface</li><br>
+                <li>-> <b>Translation Functionality:</b><br>• The program integrates the Google Translate API (via the googletrans library) to perform language translation. <br>• It translates text from one language to another based on the user's input and selected target language.</li><br>
+                <li>-> <b>Dropdown List for Language Selection:</b><br>• Users can choose the target language for translation from a dropdown list (choose_language) that offers a wide range of language options.</li><br>
+                <li>-> <b>Clearing Functionality: </b><br>•	The "Clear" button (btn2) allows users to clear both the input and output text areas (text_entry1 and text_entry2) when clicked.</li><br>
+                <li>-> <b>User Feedback:</b><br>•	The program provides user feedback through messagebox dialogs in the event of errors (empty input) or when the translation is successful.</li><br>
+                <li>-> <b>Translation Output Display:</b><br>•	The translated text is displayed in a separate text entry widget (text_entry2) within the GUI, making it easy for users to view the translation output.</li><br>
+                <li>-> <b>Combobox for Auto Select:</b><br>• A dropdown list (auto_select) with an "Auto Select" option is included, though its functionality is not fully implemented in the current code. It could potentially be used for auto-detecting the input language.</li>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> <b>Importing Libraries:</b><br>•	from tkinter import *<br>•	import tkinter as tk<br>• from tkinter import ttk<br>• from googletrans import Translator<br>• From tkinter import messagebox <br>Importing necessary libraries, including tkinter for GUI components, ttk for themed widgets, googletrans for language translation, and messagebox for displaying messages.</li><br>
+                <li>-> <b>Text Entry Widgets:</b><br>• Two Text widgets (text_entry1 and text_entry2) are provided: <br>• text_entry1: Users enter the text to be translated in this widget. <br>• text_entry2: The translated text is displayed in this widget.</li><br>
+                <li>-> <b>Auto Select:</b><br>•	A dropdown list (auto_select) with an "Auto Select" option is available. While not fully implemented in the current code, it could potentially be used for auto-detecting the input language.</li><br>
+                <li>-> <b>Error Handling:</b><br>•	Checking for empty input text and displaying an error message using a messagebox dialog box</li><br>
+                <li>-> <b>Main Loop:</b><br>• root.mainloop() :- Running the main event loop to display the GUI and handle user interactions.</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/misba-s/langtranslator.git">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

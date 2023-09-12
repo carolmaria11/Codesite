@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/text to speech.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>The provided Python script uses the tkinter library to create a simple graphical user interface (GUI) application for text-to-speech conversion. , this program offers a straightforward interface for users to input text and have it spoken aloud, making it a simple text-to-speech utility, this program offers a straightforward interface for users to input text and have it spoken aloud, making it a simple text-to-speech utility.</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>
+            <ol>
+                <li>-> <b>User-Friendly GUI: </b><br>• The program provides a graphical user interface (GUI) that allows users to interact with the application intuitively.</li><br>
+                <li>-> <b>Text Input Field:</b><br>• Users can enter the text they want to convert to speech using a text input field within the GUI.</li><br>
+                <li>-> <b>Text-to-Speech Conversion:</b><br>• When the "Speak" button is clicked, the program utilizes the pyttsx3 library to convert the entered text into speech and audibly pronounce it through the computer's speakers.</li><br>
+                <li>-> <b>Responsive Interface:</b><br>• The GUI maintains responsiveness with a fixed window size, and users can't resize the application window.</li><br>
+                <li>-> <b>Customization Options:</b><br>• While the program itself is relatively simple, it can be extended to include additional features such as language selection, speech rate adjustments, or voice options by leveraging the capabilities of the pyttsx3 library.</li>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> <b>Library Imports:</b><br>•	import tkinter as tk :- Imports the tkinter library for creating the GUI.<br>• from tkinter import * :- Imports all symbols from the tkinter module.</li><br>
+                <li>-> <b>Text-to-Speech Initialization:</b><br>• engine = pyttsx3.init(): Initializes the text-to-speech engine using the pyttsx3 library.</li><br>
+                <li>-> <b>speaknow Function:</b><br>• speaknow() function is defined to perform text-to-speech conversion.</li><br>
+                <li>-> <b>Creating the Main Window:</b><br>• root = Tk(): Creates the main tkinter window. <br>• root.title("Text to speech"): Sets the window title. <br>•	root.geometry("400x200"): Sets the initial window dimensions. <br>•	root.resizable(False, False): Disables window resizing.</li><br>
+                <li>-> <b>LabelFrame Widget:</b><br>• LabelFrame is used to create a labeled frame for organizing widgets. <br>• It contains a label, an entry field, and a button.</li><br>
+                <li>-> <b>Pack Geometry Manager:</b><br>• The pack() method is used to organize and position the widgets within the LabelFrame.</li><br>
+                <li>-> <b>Main Loop:</b><br>• The root.mainloop() function starts the tkinter main event loop, making the GUI interactive and responsive.</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/misba-s/text-to-speech.git">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

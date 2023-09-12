@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/calcu.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>a calculator with a graphical user interface (GUI) in Python can be done using various GUI libraries, such as Tkinter. Overall, this GUI calculator allows users to perform basic mathematical operations conveniently and provides feedback for any errors in the input. It serves as a simple and functional example of creating GUI applications in Python using Tkinter</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>
+            <ol>
+                <li>-> <b>User Interface:</b><br> • It includes a text entry field to display and input numbers.<br>• Digit buttons (0-9), arithmetic operators (+, -, *, /), parentheses, percentage, decimal point, equals (=), and clear (C) buttons are provided.</li><br>
+                <li>-> <b>Mathematical Operations:</b><br>•	The calculator can perform basic arithmetic operations like addition, subtraction, multiplication, and division. <br>•	It can also handle parentheses for grouping expressions and calculate percentages</li><br>
+                <li>-> <b>User Interaction:</b><br>• Users can interact with the calculator by clicking on the GUI buttons.</li><br>
+                <li>-> <b>Resizable and Stylish:</b><br>•The calculator's GUI window is not resizable, ensuring a fixed size. <br>•	Styling features include setting the background color and font size for the display field.</li><br>
+                <li>-> <b>Object-Oriented Design:</b><br>•	The calculator's functionality is encapsulated within a Calculator class, promoting code organization and maintainability.</li>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> <b>From tkinter import Tk, Entry, Button, StringVar:</b><br>• This line imports the necessary modules from the Tkinter library: Tk for creating the main application window, Entry for creating the input/output text field, Button for creating buttons, and StringVar for storing and updating the calculator's display value</li><br>
+                <li>-> <b>These lines set the title, size, background color, and make the window non-resizable:</b><br> • master.title("Calculator") <br> • master.geometry('357x420+0+0') <br>• master.config(bg='gray') <br>• master.resizable(False, False)</li><br>
+                <li>-> <b>Variety of Math Topics :</b><br> The quiz covers a wide spectrum of mathematical topics, including arithmetic, algebra, geometry, trigonometry, calculus, and more. This variety keeps the game interesting and helps users practice different aspects of math.</li><br>
+                <li>-> <b>Creating buttons for digits, operators, and functions</b>: <br>• COMMAND :- parameter is set to a function that will be called when the button is clicked. <br>• BUTTON :- The lambda functions are used to pass arguments to the self.show method, which updates the display when a button is clicked. The self.clear method is used to clear the display.  </li><br>
+                <li>-> <b>Implementing the show method:</b> <br>• SHOW :- appends the clicked button's value to the self.entry_value string and updates the display using self.equation.set().</li><br>
+                <li>-> <b>Creating the main application:</b><br> •	The Tkinter main loop (root.mainloop()) is started to run the GUI application.</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/misba-s/calculator">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

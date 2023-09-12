@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/img comp.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>This Python script uses the PIL (Python Imaging Library)  to open and compress an image file selected by the user through a file dialog image selected by the user, resize it using the Lanczos resampling algorithm, and save the resized image with a ".jpg" extension with a user-defined file name and location.</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>
+            <ol>
+                <li>-> <b>User Interaction:</b><br>• The program interacts with the user by opening a file dialog to allow them to select an image file for processing.</li>
+                <li>-> <b>Image Opening: </b><br>• It opens the selected image file using the PIL (Python Imaging Library) and stores the image data in memory for further processing.</li>
+                <li>-> <b>Image Resizing: </b><br>•	The program resizes the opened image using the Lanczos resampling algorithm (PIL.Image.LANCZOS). The dimensions of the resized image are kept the same as the original image, effectively not changing its size.</li>
+                <li>-> <b>File Saving: </b><br>• The program appends the ".jpg" file extension to the chosen file name before saving.</li>
+                <li>-> <b>File Dialogs:</b><br>• The code employs the tkinter.filedialog module to create file dialogs for both opening and saving files, enhancing user-friendliness.</li>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> <b>Import Statements:</b><br>• import PIL: Imports the PIL module.<br>• From PIL import Image: Imports the Image class from the PIL module for image manipulation.<br>• from tkinter.filedialog import *: Imports all symbols from the tkinter.filedialog module, which is used for file dialogs.</li>
+                <li>-> <b>Function Calls:</b><br>• askopenfilename(): Opens a file dialog for the user to select an image file and returns the selected file's path. <br>•	PIL.Image.open(file_path): Opens an image file specified by file_path using PIL's Image.open() method.</li>
+                <li>-> <b>Image Resizing:</b><br> •	img.resize((myWidth, myHeight), PIL.Image.LANCZOS): Resizes the opened image using the Lanczos resampling algorithm. The resized image is assigned back to the img variable.<br>• Image Saving:</li>
+                <li>-> <b>img.save(save_path + ".jpg"): </b><br>• Saves the resized image in JPEG format with a ".jpg" file extension using the img.save() method.</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/misba-s/Imagecompressor.git">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

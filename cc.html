@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/cc.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>A Caesar cipher, also known as a Caesar shift or Caesar's code, is one of the simplest and oldest methods of encryption. It is a type of substitution cipher in which each letter in the plaintext is shifted a certain number of places down or up the alphabet. This shifting of letters is done by replacing each letter with the letter that appears a fixed number of positions later or earlier in the alphabet.</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Featurea</h2>
+        <p>
+            <ol>
+                <li>-> <b>Caesar Cipher Function: </b><br>• The code defines a function caesar_cipher(text, shift) that takes a text string and a shift amount as input and returns the encrypted or decrypted text using the Caesar cipher algorithm.</li><br>
+                <li>-> <b>Encryption:</b><br>• The function iterates through each character in the input text. <br>• It checks if the character is alphabetic using char.isalpha() <br>• If the character is alphabetic, it converts it to lowercase and performs the Caesar cipher encryption by shifting the character by the specified shift amount. The character wraps around the alphabet if needed. <br>• It preserves the original character's case (uppercase or lowercase) during encryption. <br>• Non-alphabetic characters (e.g., spaces) remain unchanged in the result.</li><br>
+                <li>-> <b>Decryption:</b><br>• After encrypting the plaintext, the code demonstrates decryption by calling the caesar_cipher function again with a negative shift_amount. This reverses the encryption process and recovers the original plaintext.</li><br>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> random.choice()</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/alizashaikh6843/caeser-cipher">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

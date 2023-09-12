@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/love.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>Are you curious to know how compatible you are with your crush, partner, or someone you're secretly admiring? Look no further than the Love Calculator! Our fun and intriguing app is designed to help you uncover the mysterious world of romantic compatibility. </p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>To work out the love score between two people:
+            <ol>
+                <li>-> <b>User Input:</b><br>The code prompts the user to input the names of two people.</li><br>
+                <li>-> <b>Name Normalization: </b><br>The input names are converted to lowercase using the lower() method. This ensures that the calculations are case-insensitive.</li><br>
+                <li>-> <b>Calculating the Love Score:</b><br>• The code counts the occurrences of the letters 't', 'r', 'u', 'e', 'l', 'o', 'v', and 'e' in the combined names. <br>• It then calculates the love score by concatenating the counts and converting them to an integer. For example, if 'true' appears 3 times and 'love' appears 5 times, the love score would be 35.</li><br>
+                <li>-> <b>Love Score Interpretation:</b><br>• Based on the love score, the code provides one of three possible messages: <br>• If the love score is less than 10 or greater than 90, it suggests "Not a good match." <br>• If the love score is between 40 and 60 (inclusive), it suggests "You have a decent chance." <br>• Otherwise, it suggests "You are a great match!"</li><br>
+                <li>-> <b>Main Function::</b> <br>• The if __name__ == "__main__" block ensures that the love_calculator() function is executed when the script is run as the main program.</li><br>
+                <li>-> <b>Random Module Import:</b><br>• Although the random module is imported at the beginning of the script, it is not used in the current version of the code. It may have been intended for future enhancements or expansion of the Love Calculator.</li>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> The lower() : function changes all the letters in a string to lowercase.</li>
+                <li>-> The count() : function will give you the number of times a letter occurs in a string</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/alizashaikh6843/love">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>

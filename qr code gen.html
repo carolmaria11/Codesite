@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Page</title>
+    <!-- Fav  icon -->
+    <link rel="Shortcut icon " href="favicon.jpeg" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <!-- swiper CSS File link -->
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">Code<span>Site</span></a>
+            <!-- nav icon -->
+            <div class="nav-icons">
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <div class="circle-container">
+                    <img src="img.jpeg" alt="Your image" class="circle-image">
+                </div>
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Basic">Basic</a></li>
+                    <li><a href="#intermediate">Intermediate</a></li>
+                    <li><a href="#advance">Advance</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- video -->
+    <div class="video-container">
+        <video src="video/qr code.mp4" muted autoplay></video>
+    </div>
+    <!-- About -->
+    <div class="about container">
+        <h2>Description</h2>
+        <p>This program provides a user-friendly interface for generating QR codes from user-provided text or URLs, making it a handy tool for quickly creating QR codes for various purposes. This program is a QR code generator application built in Python using the qrcode, tkinter, PIL, and ttkbootstrap libraries. It creates a graphical user interface (GUI) where users can input text or URLs and generate corresponding QR code.</p>
+    </div>
+    <!-- features -->
+    <div class="Procedure container">
+        <h2>Key Features</h2>
+        <p>
+            <ol>
+                <li>-> <b>User-Friendly Interface:</b><br>• It provides an easy-to-use interface with a text input field, a "Generate QR Code" button, and a display area for the generated QR code.</li><br>
+                <li>-> <b>QR Code Generation: </b><br>•	When the user enters text or a URL and clicks the button, the program generates a QR code with customizable attributes such as version, box size, and colors.</li><br>
+                <li>-> <b>Image Handling: </b><br>•	It resizes and displays the QR code image using the PIL library, ensuring it fits within a 300x300 pixel area.</li><br>
+                <li>-> <b>Styling: </b><br>• The GUI elements are styled using the ttkbootstrap library, giving the application a polished appearance.</li>
+            </ol>
+        </p>
+    </div>
+    <!-- features end -->
+    <!-- methods used -->
+    <div class="content container">
+        <h2>Content used</h2>
+        <p>
+             <ol>
+                <li>-> <b>Library Imports:</b><br>• import qrcode :- Importing the qrcode library for generating QR codes.<br>•	import tkinter as tk :- Importing the tkinter library for creating the GUI.<br>• from PIL import ImageTk, Image :- Importing modules from the PIL library for image handling.<br>• from ttkbootstrap import Style :- Importing the Style class from ttkbootstrap for styling the GUI.<br>•import tkinter.ttk as ttk :-  Importing the ttk submodule from tkinter for themed tkinter widgets.</li><br>
+                <li>-> <b>Creating the Main Window:</b><br>• root = tk.Tk(): Creating the main tkinter window (Tkinter instance).<br>• root.geometry("500x500"): Defining the initial window dimensions.</li><br>
+                <li>-> <b>Function Definition:</b><br>•	def generate_qr_code(): Defining a function called generate_qr_code to generate QR codes when the button is clicked.</li><br>
+                <li>-> <b>QR Code Generation:</b><br>•	Using the qrcode library to create QR codes <br>• Creating a QR code object with specific attributes (qr = qrcode.QRCode(...)). <br>• Adding data (text or URL) to the QR code (qr.add_data(text)). <br>• Generating the QR code image (img = qr.make_image(...)).</li><br>
+                <li>-> <b>Image Handling and Display:</b><br>• Converting the image to a format suitable for tkinter using ImageTk.PhotoImage(img).<br>• Updating the QR code label (qr_label) with the new image.</li><br>
+                <li>-> <b>GUI Widget Creation and Layout:</b><br>• Creating tkinter widgets like Label, Entry, and Button for the GUI. <br>• Using pack() to arrange and position the widgets within the GUI window.</li><br>
+                <li>-> <b>Main Loop:</b><br>• Starting the tkinter main event loop with root.mainloop() to handle user interactions and keep the GUI responsive.</li>
+            </ol>
+        </p>
+    </div>
+
+
+
+
+
+    <!-- methods used end -->
+    <!-- get code start -->
+    <div class="get">
+        <h2>Get Code</h2>
+        <div class="get-code">
+            <a href="https://github.com/misba-s/QR.git">Click here</a>
+        </div>
+    </div>
+
+
+    <!-- copyright -->
+    <div class="copyright container">
+        <a href="#" class="logo">Game<span>Store</span></a>
+        <p>&#169; Carvimisza</p>
+    </div>
+
+
+
+
+<!-- link Swier file -->
+<script src="js/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+    <!-- link to javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>
